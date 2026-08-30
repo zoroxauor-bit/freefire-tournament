@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بطولة فري فاير الجزائر</title>
 
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#0b0b12;
+  color:white;
+}
+header{
+  padding:35px 20px;
+  text-align:center;
+  background:linear-gradient(135deg,#17172b,#25104a);
+}
+header h1{margin:0;font-size:32px}
+header p{color:#bbb}
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+.card{
+  background:#15151f;
+  border:1px solid #29293a;
+  border-radius:18px;
+  padding:22px;
+  margin:18px 0;
+}
+h2{margin-top:0}
+.button{
+  display:inline-block;
+  padding:14px 24px;
+  background:#7c3aed;
+  color:white;
+  text-decoration:none;
+  border-radius:12px;
+  font-weight:bold;
+  margin-top:10px;
+}
+.button:hover{opacity:.85}
+ul{line-height:2}
+.info{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:12px;
+}
+.box{
+  background:#1d1d29;
+  padding:18px;
+  border-radius:14px;
+  text-align:center;
+}
+footer{
+  text-align:center;
+  padding:25px;
+  color:#888;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🏆 بطولة فري فاير الجزائر</h1>
+  <p>أهلاً بكم في البطولة الرسمية للمشاركين</p>
+  <a class="button" href="#register">التسجيل في البطولة</a>
+</header>
+
+<div class="container">
+
+<section class="card">
+<h2>🔥 معلومات البطولة</h2>
+
+<div class="info">
+<div class="box">
+<strong>🎮 اللعبة</strong><br>
+Free Fire
+</div>
+
+<div class="box">
+<strong>🇩🇿 البلد</strong><br>
+الجزائر
+</div>
+
+<div class="box">
+<strong>👥 النظام</strong><br>
+Squad
+</div>
+
+<div class="box">
+<strong>🏆 الجوائز</strong><br>
+جوائز للفائزين
+</div>
+</div>
+</section>
+
+<section class="card" id="register">
+<h2>📝 التسجيل</h2>
+<p>للتسجيل في البطولة اضغط على الزر التالي:</p>
+
+<a class="button" href="#" onclick="alert('ضع هنا رابط استمارة التسجيل الخاصة بك');return false;">
+تسجيل الآن
+</a>
+</section>
+
+<section class="card">
+<h2>📜 قوانين البطولة</h2>
+<ul>
+<li>احترام جميع المشاركين والمنظمين.</li>
+<li>ممنوع الغش أو استعمال البرامج غير المسموحة.</li>
+<li>يجب التأكد من صحة معلومات الفريق.</li>
+<li>احترام موعد المباريات.</li>
+<li>أي مخالفة للقوانين قد تؤدي إلى الإقصاء.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>🏅 النتائج</h2>
+<p>النتائج ستُنشر هنا بعد انتهاء المباريات.</p>
+</section>
+
+<section class="card">
+<h2>📞 التواصل</h2>
+<p>للاستفسار أو المساعدة، تواصل مع إدارة البطولة.</p>
+</section>
+
+</div>
+
+<footer>
+© 2026 بطولة فري فاير الجزائر
+</footer>
+
+</body>
+</html>
